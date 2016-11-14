@@ -32,6 +32,10 @@ public class SignCreate implements Listener{
                 msg(p, "&c&l(!) &cThat is not a valid enchant.");
                 return;
             }
+	    //[Enchant]
+	    //+1
+	    //Explosive
+	    //10 E-Tokens
             e.setLine(1, "+ 1");
             e.setLine(2, e.getLine(2)); // Enchant
             e.setLine(3, e.getLine(3) + " E-Tokens");
